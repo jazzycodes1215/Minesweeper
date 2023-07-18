@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Game_Board from './components/Game-Board/Game_Board';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>You ever play minesweeper?</p>
+        <Game_Board/>
         <a
           className="App-link"
           href="https://reactjs.org"
